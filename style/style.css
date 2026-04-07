@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.container{
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 0;
+}
+.flex{
+    display: flex;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* header */
+
+.header-wrap{
+    width: 1440px;
+    height: 150px;
+    background-color:#3576C6 ;
+    position: relative;
+}
+.header-logo{
+    img{
+        margin-left: 100px;
+        margin-top: 12px;
+    }
+    a{
+        margin-top: 63px;
+        margin-left: 271px;
+        margin-right: -220px;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-style: medium;
+        font-weight: 500;
+        line-height: 100%;
+    }
+    .blue{
+        color:#0B0E66 ;
+    }
+}
+.header-button{
+    button{
+    width: 197px;
+    height: 49px;
+    background-color: #0B0E66;
+    color:#26C7EA ;
+    border: none;
+    position: absolute;
+    top: 51px;
+    left: 1170px;
+    }
+}
+
+
+/* sec1 */
+
+.sec1-wrap{
+    width: 1440px;
+    height: 700px;
+    background-image: url(/images/1234.png);
+    margin-top: -550px;
+    img{
+        margin-top:510px ;
+        margin-left:436px ;
+    }
+}
+
+
+
+/* sec2 */
+
+.sec2-wrap{
+   width: 1440px;
+   height: 1180px;
+
+}
+.sec2-greed{
+    display: grid;
+
+}
+.first{
+    position: relative;
+    width: 550px;
+    height: 360px;
+    border: 1px solid black;
+    margin-top: 96px ;
+    margin-left: 100px;
+    background-color: #26C7EA;
+    #input1{
+       position: absolute;
+       top: 100px;
+       left: 170px;
+    }
+    #input2{
+        position: absolute;
+        top: 150px;
+        left: 170px;
+    }
+    #input3{
+        position: absolute;
+        top: 200px;
+        left: 170px; 
+    }
+    button{
+        position: absolute;
+        top: 250px;
+        left: 210px;
+        width: 80px;
+        height: 30px;
+        background-color: green;
+    }
+    #par1{
+        position: absolute;
+        top: 290px;
+        left: 230px;
+        width: 80px;
+        height: 30px;
+        color: blue;
+    }
+}
+.second{
+    width: 550px;
+    height: 360px;
+    border: 1px solid black;
+    margin-top: 50px ;
+    margin-left: 100px;
+    position: relative;
+    background-color: #26C7EA;
+    #a{
+        position: absolute;
+        top: 100px;
+        left: 170px;
+    }
+    #b{
+        position: absolute;
+        top: 150px;
+        left: 170px;
+    }
+    #c{
+        position: absolute;
+        top: 200px;
+        left: 170px;  
+    }
+    #btn3{
+        position: absolute;
+        top: 250px;
+        left: 190px;
+        width: 120px;
+        height: 40px;
+        background-color: green;
+    }
+    #D{
+        position: absolute;
+        top: 280px;
+        left: 200px;
+        width: 80px;
+        height: 30px;
+        color: blue;
+    }
+    #x1{
+        position: absolute;
+        top: 300px;
+        left: 200px;
+        width: 80px;
+        height: 30px;
+        color: blue;
+    }
+    #x2{
+        position: absolute;
+        top: 320px;
+        left: 200px;
+        width: 80px;
+        height: 30px;
+        color: blue;
+    }
+    #x{
+        position: absolute;
+        top: 300px;
+        left: 270px;
+        width: 80px;
+        height: 30px;
+        color: blue;
+    }
+}
+.three{
+    position: relative;
+    width: 550px;
+    height: 360px;
+    border: 1px solid black;
+    margin-top: 50px ;
+    margin-left: 100px;
+    background-color: #26C7EA;
+    #input7{
+        position: absolute;
+        top: 150px;
+        left: 170px;
+    }
+    #btn5{
+        position: absolute;
+        top: 200px;
+        left: 180px;
+        width: 150px;
+        height: 30px;
+        background-color: green;
+    }
+    #par5{
+        position: absolute;
+        top: 240px;
+        left: 150px;
+        width: 80px;
+        height: 30px;
+        color: blue;
+    }
+    #par6{
+        position: absolute;
+        top: 240px;
+        left: 250px;
+        width: 80px;
+        height: 30px;
+        color: blue;
+    }
+}
+.four{
+    width: 550px;
+    height: 360px;
+    border: 1px solid black;
+    margin-top: -1190px ;
+    margin-left: 900px;
+    position: relative;
+    background-color: #26C7EA;
+    #input4{
+        position: absolute;
+        top: 100px;
+        left: 190px; 
+    }
+    #input5{
+        position: absolute;
+        top: 150px;
+        left: 190px; 
+    }
+    button{
+        position: absolute;
+        top: 200px;
+        left: 200px; 
+        width: 150px;
+        height: 30px;
+        background-color: green;
+    }
+    #par2{
+        position: absolute;
+        top: 240px;
+        left: 265px;
+        width: 80xpx;
+        height: 30px;
+        color: blue;
+    }
+}
+.five{
+    position: relative;
+    width: 550px;
+    height: 360px;
+    border: 1px solid black;
+    margin-top: -770px ;
+    margin-left: 900px; 
+    background-color: #26C7EA;
+    #input6{
+        position: absolute;
+        top: 150px;
+        left: 190px; 
+    }
+    #btn4{
+        position: absolute;
+        top: 200px;
+        left: 200px; 
+        width: 150px;
+        height: 30px;
+        background-color: green;
+    }
+    #par3{
+        position: absolute;
+        top: 240px;
+        left: 200px;
+        width: 80px;
+        height: 30px;
+        color: blue;
+    }
+    #par4{
+        position: absolute;
+        top: 260px;
+        left: 200px;
+        width: 80px;
+        height: 30px;
+        color: blue;
+    }
+}
+.six{
+    position: relative;
+    width: 550px;
+    height: 360px;
+    border: 1px solid black;
+    margin-top: -360px ;
+    margin-left: 900px;
+    background-color: #26C7EA;
+    #btn6{
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        width: 300px;
+        height: 60px;
+        background-color: green;
+    }
+    #par7{
+        position: absolute;
+        top: 240px;
+        left: 150px;
+        width: 80px;
+        height: 30px;
+        color: blue;
+    }
+    #par8{
+        position: absolute;
+        top: 240px;
+        left: 250px;
+        width: 80px;
+        height: 30px;
+        color: blue;
+    }
+    h3{
+        position: absolute;
+        top: 20px;
+        left: 150px;
+        color: blue;
+    }
+}
+
+
+/* footer */
+
+.footer-wrap{
+    position: relative;
+    width: 1440px;
+    height: 243px;
+    background-color: #3576C6;
+    margin-top: 700px;
+    margin-left: 50px;
+}
+.footer-logo{
+    position: absolute;
+    top: 28px;
+    left: 99px;
+}
+.footer-info1{
+    span{
+        color: #26C7EA;
+        position: absolute;
+        top: 40px;
+        left: 487px;
+        font-family: 'Inter',sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 24px;
+        line-height: 100%;
+    }
+    .h41{
+        position: absolute;
+        top: 68px;
+        left:488px ;
+        font-family: 'Inter',sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 24px;
+        line-height: 100%;
+        color: white;
+    }
+    .h42{
+        position: absolute;
+        top: 108px;
+        left:488px ;
+        font-family: 'Inter',sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 24px;
+        line-height: 100%;
+        color: white;
+    }
+    .im1{
+        position: absolute;
+        top: 187px;
+        left: 488px;
+    }
+    .im2{
+        position: absolute;
+        top: 187px;
+        left: 543px;
+    }
+    .im3{
+        position: absolute;
+        top: 187px;
+        left: 618px;
+    }
+}
+.footer-info2{
+    span{
+        color: #26C7EA;
+        position: absolute;
+        top: 40px;
+        left: 943px;
+        font-family: 'Inter',sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 24px;
+        line-height: 100%;
+    }
+    .h43{
+        position: absolute;
+        top: 70px;
+        left:943px ;
+        font-family: 'Inter',sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 24px;
+        line-height: 100%;
+        color: white;
+    }
+    .im4{
+        position: absolute;
+        top: 70px;
+        left: 890px;
+    }
+    .im5{
+        position: absolute;
+        top: 158px;
+        left: 890px;
+    }
+    .h44{
+        position: absolute;
+        top: 158px;
+        left:943px ;
+        font-family: 'Inter',sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 24px;
+        line-height: 100%;
+        color: white;
+    }
+    .p1{
+        position: absolute;
+        top: 118px;
+        left:924px ;
+        font-family: 'Inter',sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 100%;
+        color: #26C7EA;
+    }
+    .p2{
+        position: absolute;
+        top: 134px;
+        left:924px ;
+        font-family: 'Inter',sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 100%;
+        color: #26C7EA;
+    }
+    
+}
